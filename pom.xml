@@ -80,23 +80,23 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <wicketVersion>10.0.0-M2</wicketVersion>
-        <slf4jVersion>2.0.9</slf4jVersion>
-        <jgitVersion>6.7.0.202309050840-r</jgitVersion>
-        <springVersion>6.1.2</springVersion>
+        <slf4jVersion>2.0.12</slf4jVersion>
+        <jgitVersion>6.8.0.202311291450-r</jgitVersion>
+        <springVersion>6.1.4</springVersion>
         <reflectionsVersion>0.10.2</reflectionsVersion>
-        <jacksonVersion>2.15.2</jacksonVersion>
-        <poiVersion>5.2.3</poiVersion>
-        <slackApiVersion>1.29.2</slackApiVersion>
+        <jacksonVersion>2.16.1</jacksonVersion>
+        <poiVersion>5.2.5</poiVersion>
+        <slackApiVersion>1.38.1</slackApiVersion>
         <commonmarkVersion>0.21.0</commonmarkVersion>
-        <mockitoVersion>5.5.0</mockitoVersion>
+        <mockitoVersion>5.10.0</mockitoVersion>
         <eclipselinkVersion>4.0.2</eclipselinkVersion>
-        <junitVersion>5.10.1</junitVersion>
-        <assertjVersion>3.24.2</assertjVersion>
-        <liquibaseVersion>4.22.0</liquibaseVersion>
+        <junitVersion>5.10.2</junitVersion>
+        <assertjVersion>3.25.3</assertjVersion>
+        <liquibaseVersion>4.26.0</liquibaseVersion>
         <servletVersion>5.0.0</servletVersion>
-        <postgresqlVersion>42.6.0</postgresqlVersion>
+        <postgresqlVersion>42.7.2</postgresqlVersion>
         <h2Version>2.2.224</h2Version>
-        <logbackVersion>1.4.12</logbackVersion>
+        <logbackVersion>1.5.0</logbackVersion>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <sonar.sources>src/main/java,src/main/resources</sonar.sources>
     </properties>
