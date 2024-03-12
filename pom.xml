@@ -79,9 +79,9 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <wicketVersion>10.0.0-M2</wicketVersion>
+        <wicketVersion>10.0.0</wicketVersion>
         <slf4jVersion>2.0.12</slf4jVersion>
-        <jgitVersion>6.8.0.202311291450-r</jgitVersion>
+        <jgitVersion>6.9.0.202403050737-r</jgitVersion>
         <springVersion>6.1.4</springVersion>
         <reflectionsVersion>0.10.2</reflectionsVersion>
         <jacksonVersion>2.16.1</jacksonVersion>
@@ -96,7 +96,7 @@
         <servletVersion>5.0.0</servletVersion>
         <postgresqlVersion>42.7.2</postgresqlVersion>
         <h2Version>2.2.224</h2Version>
-        <logbackVersion>1.5.0</logbackVersion>
+        <logbackVersion>1.5.3</logbackVersion>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <sonar.sources>src/main/java,src/main/resources</sonar.sources>
     </properties>
