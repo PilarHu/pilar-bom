@@ -79,10 +79,10 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <wicketVersion>10.0.0</wicketVersion>
+        <wicketVersion>10.1.0</wicketVersion>
         <slf4jVersion>2.0.12</slf4jVersion>
         <jgitVersion>6.9.0.202403050737-r</jgitVersion>
-        <springVersion>6.1.4</springVersion>
+        <springVersion>6.1.10</springVersion>
         <reflectionsVersion>0.10.2</reflectionsVersion>
         <jacksonVersion>2.16.1</jacksonVersion>
         <poiVersion>5.2.5</poiVersion>
