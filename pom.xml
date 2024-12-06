@@ -76,8 +76,8 @@
     </repositories>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>23</maven.compiler.source>
+        <maven.compiler.target>23</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <wicketVersion>10.2.0</wicketVersion>
         <slf4jVersion>2.0.16</slf4jVersion>
@@ -89,11 +89,11 @@
         <slackApiVersion>1.43.1</slackApiVersion>
         <commonmarkVersion>0.23.0</commonmarkVersion>
         <mockitoVersion>5.14.1</mockitoVersion>
-        <eclipselinkVersion>4.0.4</eclipselinkVersion>
+        <eclipselinkVersion>4.0.2</eclipselinkVersion>
         <junitVersion>5.11.1</junitVersion>
         <assertjVersion>3.26.3</assertjVersion>
         <liquibaseVersion>4.29.2</liquibaseVersion>
-        <servletVersion>5.0.0</servletVersion>
+        <servletVersion>6.0.0</servletVersion>
         <postgresqlVersion>42.7.4</postgresqlVersion>
         <h2Version>2.3.232</h2Version>
         <logbackVersion>1.5.8</logbackVersion>
