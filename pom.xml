@@ -79,24 +79,24 @@
         <maven.compiler.source>23</maven.compiler.source>
         <maven.compiler.target>23</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <wicketVersion>10.2.0</wicketVersion>
+        <wicketVersion>10.3.0</wicketVersion>
         <slf4jVersion>2.0.16</slf4jVersion>
-        <jgitVersion>7.0.0.202409031743-r</jgitVersion>
-        <springVersion>6.1.13</springVersion>
+        <jgitVersion>7.1.0.202411261347-r</jgitVersion>
+        <springVersion>6.2.1</springVersion>
         <reflectionsVersion>0.10.2</reflectionsVersion>
-        <jacksonVersion>2.18.0</jacksonVersion>
+        <jacksonVersion>2.18.2</jacksonVersion>
         <poiVersion>5.2.5</poiVersion>
         <slackApiVersion>1.43.1</slackApiVersion>
         <commonmarkVersion>0.23.0</commonmarkVersion>
         <mockitoVersion>5.14.1</mockitoVersion>
-        <eclipselinkVersion>4.0.2</eclipselinkVersion>
-        <junitVersion>5.11.1</junitVersion>
-        <assertjVersion>3.26.3</assertjVersion>
-        <liquibaseVersion>4.29.2</liquibaseVersion>
+        <eclipselinkVersion>4.0.5</eclipselinkVersion>
+        <junitVersion>5.11.4</junitVersion>
+        <assertjVersion>3.27.0</assertjVersion>
+        <liquibaseVersion>4.30.0</liquibaseVersion>
         <servletVersion>6.0.0</servletVersion>
         <postgresqlVersion>42.7.4</postgresqlVersion>
         <h2Version>2.3.232</h2Version>
-        <logbackVersion>1.5.8</logbackVersion>
+        <logbackVersion>1.5.15</logbackVersion>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <sonar.sources>src/main/java,src/main/resources</sonar.sources>
     </properties>
@@ -114,8 +114,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.12.1</version>
                 <configuration>
-                    <source>17</source>
-                    <target>17</target>
+                    <source>23</source>
+                    <target>23</target>
                 </configuration>
             </plugin>
             <plugin>
