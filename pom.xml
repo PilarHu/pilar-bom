@@ -85,6 +85,7 @@
         <springVersion>6.2.1</springVersion>
         <reflectionsVersion>0.10.2</reflectionsVersion>
         <jacksonVersion>2.18.2</jacksonVersion>
+        <commonsLangVersion>3.17.0</commonsLangVersion>
         <poiVersion>5.2.5</poiVersion>
         <slackApiVersion>1.43.1</slackApiVersion>
         <commonmarkVersion>0.23.0</commonmarkVersion>
