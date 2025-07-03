@@ -82,7 +82,7 @@
         <wicketVersion>10.5.0</wicketVersion>
         <slf4jVersion>2.0.17</slf4jVersion>
         <jgitVersion>7.2.0.202503040940-r</jgitVersion>
-        <springVersion>6.2.6</springVersion>
+        <springVersion>6.2.8</springVersion>
         <reflectionsVersion>0.10.2</reflectionsVersion>
         <jacksonVersion>2.19.0</jacksonVersion>
         <commonsLangVersion>3.17.0</commonsLangVersion>
@@ -90,7 +90,7 @@
         <slackApiVersion>1.43.1</slackApiVersion>
         <commonmarkVersion>0.23.0</commonmarkVersion>
         <mockitoVersion>5.14.1</mockitoVersion>
-        <eclipselinkVersion>4.0.6</eclipselinkVersion>
+        <eclipselinkVersion>4.0.7</eclipselinkVersion>
         <junitVersion>5.12.2</junitVersion>
         <assertjVersion>3.27.3</assertjVersion>
         <liquibaseVersion>4.31.1</liquibaseVersion>
