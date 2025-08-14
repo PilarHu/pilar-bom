@@ -4,7 +4,7 @@
    <modelVersion>4.0.0</modelVersion>
    <groupId>hu.pilar</groupId>
    <artifactId>pilar-bom</artifactId>
-   <version>2025.01${versionPostfix}</version>
+   <version>${buildRevision}</version>
    <packaging>pom</packaging>
 
    <name>pilar-bom</name>
@@ -64,7 +64,7 @@
       <repository>
          <id>private-repo</id>
          <name>Private Repository</name>
-         <url>https://raw.githubusercontent.com/PilarHu/internal-repo/master/</url>
+         <url>https://internal.pilar.hu/internal-repo</url>
          <releases>
             <enabled>true</enabled>
             <updatePolicy>always</updatePolicy>
@@ -100,7 +100,7 @@
       <logbackVersion>1.5.18</logbackVersion>
       <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
       <sonar.sources>src/main/java,src/main/resources</sonar.sources>
-      <versionPostfix>-SNAPSHOT</versionPostfix>
+      <buildRevision>1.0-SNAPSHOT</buildRevision>
    </properties>
 
    <scm>
