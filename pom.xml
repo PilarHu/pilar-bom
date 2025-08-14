@@ -4,7 +4,7 @@
    <modelVersion>4.0.0</modelVersion>
    <groupId>hu.pilar</groupId>
    <artifactId>pilar-bom</artifactId>
-   <version>2025.01-SNAPSHOT</version>
+   <version>2025.01${versionPostfix}</version>
    <packaging>pom</packaging>
 
    <name>pilar-bom</name>
@@ -100,11 +100,12 @@
       <logbackVersion>1.5.18</logbackVersion>
       <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
       <sonar.sources>src/main/java,src/main/resources</sonar.sources>
+      <versionPostfix>-SNAPSHOT</versionPostfix>
    </properties>
 
    <scm>
       <connection>scm:git:${project.url}.git</connection>
-      <developerConnection>scm:git:git@github.com:PilarHu/pilar-bom.git</developerConnection>
+      <developerConnection>scm:git:git@github.com:PilarHu/${project.name}.git</developerConnection>
       <url>${project.url}</url>
    </scm>
 
