@@ -21,7 +21,8 @@ pipeline {
             when { branch 'master' }
             steps {
                 withMaven(maven: 'maven3', mavenSettingsConfig: '00e92796-3fa4-4c0f-b4ee-fa441532f2f0', jdk: 'JDK23') {
-                    sh 'mvn -Dversion.postfix=${BUILD_NUMBER} -B clean verify install deploy'
+                    sh 'mvn -Dversion.postfix=${BUILD_NUMBER} -B clean verify install deploy' +
+                            '&& '
                 }
             }
             post {
